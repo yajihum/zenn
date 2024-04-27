@@ -1,8 +1,8 @@
 ---
 title: "チャットアプリ作成を通して学ぶApp Router/Server Actions"
 emoji: "🦤"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [Next.js, App Router, Clerk, Prisma, PlanetScale]
+type: "tech"
+topics: [nextjs, approuter, Clerk, Prisma, PlanetScale]
 published: true
 ---
 
@@ -16,8 +16,15 @@ App Router が安定版になり、そろそろちゃんと学ばないとな〜
 
 認証として[Clerk](https://clerk.com/)、ORM に[Prisma](https://www.prisma.io/)、DB に[PlanetScale](https://planetscale.com/)を使用します。
 
+:::message
+PlanetScaleの無料版が廃止されたため現在は他のDBサービスを使う方が望ましいです！
+Supabaseなどで置き換えるか、書き直して欲しい場合はコメントで応援くださればもう一度記事を書き直そうと思います🙏
+下記にあるデモサイトの見れなくなっているため注意してください
+:::
+
 以下がデモのリポジトリです！
 https://github.com/yajium/app-router-server-actions-study
+
 
 デモサイトです ↓
 https://chatlife.vercel.app/
